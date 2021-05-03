@@ -2,7 +2,7 @@ package main
 
 /**
  * Syc <github.com/SycAlright>
- * Hostloc_Avatar
+ * Hostloc_Avatar Code
  */
 
 import (
