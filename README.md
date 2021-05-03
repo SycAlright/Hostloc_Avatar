@@ -52,7 +52,7 @@ Access denied for agent changed
 <root><message type="error" value="-2" /></root>
 ```
 
-## 代码版（code文件夹内）
+## 代码版（code）
 ### 1. 获取 `Agent` + `Input` 参数
 打开 https://hostloc.com/home.php?mod=spacecp&ac=avatar 查看源代码或者审查元素  
 搜索`input=`和`agent=`并记录下对应参数，已知`agent`是用户唯一值。
