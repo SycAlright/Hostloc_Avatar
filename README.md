@@ -19,7 +19,7 @@ Windows `hostloc_avatar.exe -agent=xxx -input=xxx`
 Linux `hostloc_avatar -agent=xxx -input=xxx`
 
 自定义头像文件：  
-`hostloc_avatar -agent=xxx -input=xxx -avatar1=45.jpg -avatar1=120.jpg -avatar1=200.jpg`
+`hostloc_avatar -agent=xxx -input=xxx -avatar1=45.jpg -avatar2=120.jpg -avatar3=200.jpg`
 
 帮助信息：
 ```go
