@@ -1,4 +1,5 @@
-# Hostloc头像一键上传，免cookie，免flash，非js脚本
+# Hostloc头像一键上传工具，开箱即用
+# 免登录，无需Cookie，拒绝Flash，非Js脚本
 
 ## 使用
 
