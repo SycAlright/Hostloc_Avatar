@@ -7,7 +7,6 @@ package main
 
 import (
 	"bytes"
-	"flag"
 	"fmt"
 	"image"
 	_ "image/gif"
@@ -22,23 +21,16 @@ import (
 	"time"
 )
 
-var (
-	INPUT = ""
-	AGENT = ""
+// Edit your data!
+const (
+	INPUT = "775f64jN3UVIp%SDxTzGCAwy66vZs1RU6%2Fe9cYo2%2FBdLuCG76%2FV5%2BZlkNDIWKtoQmLKbJUKj0qVklclJsoFmGvmX0sIQ5Jwlpcno9TjL%2FJoYSAjaHq2r1ObEbeJ9Xd"
+	AGENT = "3651f000000000000000000000000a66"
 )
 
 func main() {
-	agent := flag.String("agent", "", "your agent")
-	input := flag.String("input", "", "your input")
-	avatar1 := flag.String("avatar1", "45.jpg", "45px avatar image path ")
-	avatar2 := flag.String("avatar2", "120.jpg", "120px avatar image path")
-	avatar3 := flag.String("avatar3", "200.jpg", "200px avatar image path")
-	flag.Parse()
-	AGENT = *agent
-	INPUT = *input
-	S := hexImage(*avatar1)
-	M := hexImage(*avatar2)
-	L := hexImage(*avatar3)
+	S := hexImage("45.jpg")
+	M := hexImage("120.jpg")
+	L := hexImage("200.jpg")
 	uploadAvatar(S, M, L)
 }
 
