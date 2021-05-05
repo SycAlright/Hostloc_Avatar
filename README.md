@@ -1,5 +1,7 @@
 # Hostloc头像一键上传工具，开箱即用
-# 免登录，无需Cookie，拒绝Flash，非Js脚本
+# 免登录，无需Cookie，拒绝Flash，非Js脚本  
+
+## 修改域名即可适应其他论坛，Discuz!X 全系列通用
 
 ## 使用
 
